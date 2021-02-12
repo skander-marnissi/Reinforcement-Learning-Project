@@ -1,0 +1,7 @@
+<routes>
+ <vType accel="2.9" decel="7.5" id="npc_car" type="passenger" length="4.3" minGap="30" maxSpeed="13.89" sigma="0.5" />
+ <vType accel="2.9" decel="7.5" id="ai_car" type="passenger" length="4.3" minGap="0" maxSpeed="27.89" departspeed="0" sigma="0.5" />
+ <route id="circle_route" edges="1to2 2to3"/>
+ <flow id="carflow" type="npc_car" beg="0" end="0" number="49" from="1to2" to="2to3"/>
+ <vehicle depart="1" id="my_car" route="circle_route" type="ai_car" color="1,0,0" />
+</routes>
